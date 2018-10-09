@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+}
+
+#header {
+	width:60%;
+	height: 60%;
+}
+
+.featured {
+	font: 17px georgia, serif;
+	padding: 10px;
+}
+
+#grid {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table,
+tr,
+td {
+	border: 1px solid #000;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+
+#gridHeight, #gridWidth {
+	width: 80px;
+}

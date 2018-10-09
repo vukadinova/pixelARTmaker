@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The Pixel Art Maker</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<!-- The Pixel Art Maker header in a cool style -->
+	<div>
+		<img src="header.png" alt="header logo" id="header">
+	</div>
+	
+	<!-- input fields for height and width -->
+	<div class="featured">
+		Grid Height: <input id="gridHeight" type="text">
+		Grid Width: <input id="gridWidth" type="text">
+		<button type="button">Submit</button>
+	</div>
+	
+	<!-- input field for the color -->
+	<div class="featured">
+		<strong>Pick a color </strong><input id="color" type="color" value="#00bfff">
+	</div>
+	
+	<!-- header for the drawing grid -->
+	<div class="featured">
+		<strong>Design Canvas </strong>
+	</div>
+	
+	<!-- the grid -->
+	<div id="featured">
+		<table id="grid"></table>
+	</div>
+	
+	<script src="design.js"></script>
+</body>
+</html>
